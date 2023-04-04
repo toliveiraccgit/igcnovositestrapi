@@ -1,0 +1,119 @@
+{
+  "key": "plugin_content_manager_configuration_components::manager.manager",
+  "value": {
+    "uid": "manager.manager",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "label_1",
+      "defaultSortBy": "label_1",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "parceiro": {
+        "edit": {
+          "label": "parceiro",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "parceiro",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "label_1": {
+        "edit": {
+          "label": "label_1",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "label_1",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "label_2": {
+        "edit": {
+          "label": "label_2",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "label_2",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "parceiro",
+        "label_1",
+        "label_2"
+      ],
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "parceiro",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "label_2",
+            "size": 6
+          },
+          {
+            "name": "label_1",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

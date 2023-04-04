@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_chart_charts",
+  "info": {
+    "displayName": "chart",
+    "icon": "arrow-up"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

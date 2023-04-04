@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_transactions_transactions",
+  "info": {
+    "displayName": "transactions",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "transaction": {
+      "type": "string",
+      "required": true
+    },
+    "sectors": {
+      "type": "string",
+      "required": true
+    },
+    "source": {
+      "type": "string",
+      "required": true
+    },
+    "profile": {
+      "type": "string",
+      "required": true
+    },
+    "more": {
+      "type": "string"
+    },
+    "transactions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::transacoe.transacoe"
+    }
+  }
+}

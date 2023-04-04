@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_global_globals",
+  "info": {
+    "displayName": "global",
+    "icon": "globe-africa"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "light"
+      },
+      "required": false,
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

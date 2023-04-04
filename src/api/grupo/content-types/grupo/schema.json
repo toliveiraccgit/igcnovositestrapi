@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "grupos",
+  "info": {
+    "singularName": "grupo",
+    "pluralName": "grupos",
+    "displayName": "Grupo"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_manager_managers",
+  "info": {
+    "displayName": "manager",
+    "icon": "ankh",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "parceiro": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::partner.partner"
+    },
+    "label_1": {
+      "type": "string",
+      "required": true
+    },
+    "label_2": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

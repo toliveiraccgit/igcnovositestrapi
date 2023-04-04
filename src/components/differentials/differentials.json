@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_differentials_differentials",
+  "info": {
+    "displayName": "differentials",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "differential_1": {
+      "type": "string",
+      "required": false
+    },
+    "differential_2": {
+      "type": "string"
+    },
+    "differential_3": {
+      "type": "string"
+    },
+    "differential_4": {
+      "type": "string"
+    }
+  }
+}

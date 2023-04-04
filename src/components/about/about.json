@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_about_abouts",
+  "info": {
+    "displayName": "about",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "card.cards"
+    },
+    "mobile": {
+      "type": "component",
+      "repeatable": true,
+      "component": "mobile.mobile",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::pagina-servico.pagina-servico",
+  "value": {
+    "uid": "api::pagina-servico.pagina-servico",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "title",
+      "defaultSortBy": "title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "description": {
+        "edit": {
+          "label": "description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "description",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "chart": {
+        "edit": {
+          "label": "chart",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "chart",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "font": {
+        "edit": {
+          "label": "font",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "font",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "customer": {
+        "edit": {
+          "label": "customer",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "customer",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "transaction": {
+        "edit": {
+          "label": "transaction",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "transaction",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "partner": {
+        "edit": {
+          "label": "partner",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "partner",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "dif": {
+        "edit": {
+          "label": "dif",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "dif",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "title",
+        "chart",
+        "font"
+      ],
+      "editRelations": [],
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "description",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "chart",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "font",
+            "size": 6
+          },
+          {
+            "name": "customer",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "transaction",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "partner",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "dif",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

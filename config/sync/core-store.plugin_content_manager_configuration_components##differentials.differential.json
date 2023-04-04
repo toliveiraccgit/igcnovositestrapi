@@ -1,0 +1,298 @@
+{
+  "key": "plugin_content_manager_configuration_components::differentials.differential",
+  "value": {
+    "uid": "differentials.differential",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "title",
+      "defaultSortBy": "title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "differential_1": {
+        "edit": {
+          "label": "differential_1",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "differential_1",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "differential_1_description": {
+        "edit": {
+          "label": "differential_1_description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "differential_1_description",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "differential_2": {
+        "edit": {
+          "label": "differential_2",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "differential_2",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "differential_2_description": {
+        "edit": {
+          "label": "differential_2_description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "differential_2_description",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "differential_3": {
+        "edit": {
+          "label": "differential_3",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "differential_3",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "differential_3_description": {
+        "edit": {
+          "label": "differential_3_description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "differential_3_description",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "differential_4_description": {
+        "edit": {
+          "label": "differential_4_description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "differential_4_description",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "differential_5": {
+        "edit": {
+          "label": "differential_5",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "differential_5",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "differential_5_description": {
+        "edit": {
+          "label": "differential_5_description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "differential_5_description",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "differential_6": {
+        "edit": {
+          "label": "differential_6",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "differential_6",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "differential_6_description": {
+        "edit": {
+          "label": "differential_6_description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "differential_6_description",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "differential_4": {
+        "edit": {
+          "label": "differential_4",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "differential_4",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "title",
+        "differential_1",
+        "differential_2"
+      ],
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 6
+          },
+          {
+            "name": "differential_1",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "differential_1_description",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "differential_2",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "differential_2_description",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "differential_3",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "differential_3_description",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "differential_4_description",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "differential_5",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "differential_5_description",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "differential_6",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "differential_6_description",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "differential_4",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

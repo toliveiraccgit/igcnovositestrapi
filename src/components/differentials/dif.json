@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_differentials_difs",
+  "info": {
+    "displayName": "dif"
+  },
+  "options": {},
+  "attributes": {
+    "differential_1": {
+      "type": "string"
+    },
+    "differential_1_description": {
+      "type": "string"
+    },
+    "differential_2": {
+      "type": "string"
+    },
+    "differential_2_description": {
+      "type": "string"
+    },
+    "differential_3": {
+      "type": "string"
+    },
+    "differential_3_description": {
+      "type": "string"
+    },
+    "differential_4": {
+      "type": "string"
+    },
+    "differential_4_description": {
+      "type": "string"
+    },
+    "differential_5": {
+      "type": "string"
+    },
+    "differential_5_description": {
+      "type": "string"
+    },
+    "differential_6": {
+      "type": "string"
+    },
+    "differential_6_description": {
+      "type": "string"
+    }
+  }
+}

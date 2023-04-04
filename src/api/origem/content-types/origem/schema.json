@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "origems",
+  "info": {
+    "singularName": "origem",
+    "pluralName": "origems",
+    "displayName": "Origem",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "origem": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    }
+  }
+}

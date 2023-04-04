@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_mobile_mobiles",
+  "info": {
+    "displayName": "mobile",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

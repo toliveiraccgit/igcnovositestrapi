@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_dynamic_dynamics",
+  "info": {
+    "displayName": "dynamic",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    },
+    "transactions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::transacoe.transacoe"
+    },
+    "testimonies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::testemunho.testemunho"
+    },
+    "news": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::new.new"
+    }
+  }
+}

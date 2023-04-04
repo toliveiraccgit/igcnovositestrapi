@@ -1,0 +1,136 @@
+{
+  "key": "plugin_content_manager_configuration_components::transactions.transactions",
+  "value": {
+    "uid": "transactions.transactions",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "transaction",
+      "defaultSortBy": "transaction",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "transaction": {
+        "edit": {
+          "label": "transaction",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "transaction",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "sectors": {
+        "edit": {
+          "label": "sectors",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "sectors",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "source": {
+        "edit": {
+          "label": "source",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "source",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "profile": {
+        "edit": {
+          "label": "profile",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "profile",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "more": {
+        "edit": {
+          "label": "more",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "more",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "transaction",
+        "sectors",
+        "source"
+      ],
+      "edit": [
+        [
+          {
+            "name": "transaction",
+            "size": 6
+          },
+          {
+            "name": "sectors",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "source",
+            "size": 6
+          },
+          {
+            "name": "profile",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "more",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_news_news",
+  "info": {
+    "displayName": "news",
+    "icon": "bell"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "news": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::new.new"
+    }
+  }
+}

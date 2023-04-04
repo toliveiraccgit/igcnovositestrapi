@@ -1,0 +1,145 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::home.home",
+  "value": {
+    "uid": "api::home.home",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "clients",
+      "defaultSortBy": "clients",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "banner": {
+        "edit": {
+          "label": "banner",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "banner",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "clients": {
+        "edit": {
+          "label": "clients",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "clients",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "services": {
+        "edit": {
+          "label": "services",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "services",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "transaction": {
+        "edit": {
+          "label": "transaction",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "transaction",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "banner",
+        "clients",
+        "services"
+      ],
+      "editRelations": [],
+      "edit": [
+        [
+          {
+            "name": "banner",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "clients",
+            "size": 6
+          },
+          {
+            "name": "services",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "transaction",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

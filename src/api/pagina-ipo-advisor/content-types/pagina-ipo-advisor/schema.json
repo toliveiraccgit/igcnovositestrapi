@@ -1,0 +1,72 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_ipo_advisors",
+  "info": {
+    "singularName": "pagina-ipo-advisor",
+    "pluralName": "pagina-ipo-advisors",
+    "displayName": "Página - Ipo Advisor",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext",
+      "required": false
+    },
+    "about": {
+      "displayName": "about",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "about.about",
+      "required": true
+    },
+    "chart": {
+      "displayName": "chart",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "charts.chart"
+    },
+    "more": {
+      "displayName": "more",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "more.more"
+    }
+  }
+}

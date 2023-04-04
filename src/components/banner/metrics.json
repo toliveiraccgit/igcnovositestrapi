@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_banner_metrics",
+  "info": {
+    "displayName": "Metrics",
+    "icon": "chart-bar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

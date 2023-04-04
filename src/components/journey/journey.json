@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_journey_journeys",
+  "info": {
+    "displayName": "journey",
+    "icon": "luggage-cart"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

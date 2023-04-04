@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_specialty_specialties",
+  "info": {
+    "displayName": "specialty",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "specialties": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::specialty.specialty"
+    }
+  }
+}

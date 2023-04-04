@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_principles_lists",
+  "info": {
+    "displayName": "list",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slogan": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

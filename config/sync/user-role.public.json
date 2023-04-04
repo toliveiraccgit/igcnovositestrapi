@@ -1,0 +1,136 @@
+{
+  "name": "Public",
+  "description": "Default role given to unauthenticated user.",
+  "type": "public",
+  "permissions": [
+    {
+      "action": "api::about-us.about-us.find"
+    },
+    {
+      "action": "api::capital-solution.capital-solution.find"
+    },
+    {
+      "action": "api::contact.contact.find"
+    },
+    {
+      "action": "api::footer.footer.find"
+    },
+    {
+      "action": "api::grupo.grupo.find"
+    },
+    {
+      "action": "api::grupo.grupo.findOne"
+    },
+    {
+      "action": "api::header.header.find"
+    },
+    {
+      "action": "api::home.home.find"
+    },
+    {
+      "action": "api::message.message.create"
+    },
+    {
+      "action": "api::new.new.find"
+    },
+    {
+      "action": "api::new.new.findOne"
+    },
+    {
+      "action": "api::origem.origem.find"
+    },
+    {
+      "action": "api::origem.origem.findOne"
+    },
+    {
+      "action": "api::pagina-agro.pagina-agro.find"
+    },
+    {
+      "action": "api::pagina-ipo-advisor.pagina-ipo-advisor.find"
+    },
+    {
+      "action": "api::pagina-new.pagina-new.find"
+    },
+    {
+      "action": "api::pagina-servico.pagina-servico.find"
+    },
+    {
+      "action": "api::pagina-social.pagina-social.find"
+    },
+    {
+      "action": "api::pagina-transacoe.pagina-transacoe.find"
+    },
+    {
+      "action": "api::partner.partner.find"
+    },
+    {
+      "action": "api::partner.partner.findOne"
+    },
+    {
+      "action": "api::perfil.perfil.find"
+    },
+    {
+      "action": "api::perfil.perfil.findOne"
+    },
+    {
+      "action": "api::principio.principio.find"
+    },
+    {
+      "action": "api::principio.principio.findOne"
+    },
+    {
+      "action": "api::servico.servico.find"
+    },
+    {
+      "action": "api::servico.servico.findOne"
+    },
+    {
+      "action": "api::specialty.specialty.find"
+    },
+    {
+      "action": "api::specialty.specialty.findOne"
+    },
+    {
+      "action": "api::testemunho.testemunho.find"
+    },
+    {
+      "action": "api::testemunho.testemunho.findOne"
+    },
+    {
+      "action": "api::transacoe.transacoe.find"
+    },
+    {
+      "action": "api::transacoe.transacoe.findOne"
+    },
+    {
+      "action": "plugin::i18n.locales.listLocales"
+    },
+    {
+      "action": "plugin::navigation.client.render"
+    },
+    {
+      "action": "plugin::navigation.client.renderChild"
+    },
+    {
+      "action": "plugin::users-permissions.auth.callback"
+    },
+    {
+      "action": "plugin::users-permissions.auth.connect"
+    },
+    {
+      "action": "plugin::users-permissions.auth.emailConfirmation"
+    },
+    {
+      "action": "plugin::users-permissions.auth.forgotPassword"
+    },
+    {
+      "action": "plugin::users-permissions.auth.register"
+    },
+    {
+      "action": "plugin::users-permissions.auth.resetPassword"
+    },
+    {
+      "action": "plugin::users-permissions.auth.sendEmailConfirmation"
+    }
+  ]
+}

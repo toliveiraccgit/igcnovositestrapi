@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_banner_banners",
+  "info": {
+    "displayName": "banner",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "metrics": {
+      "displayName": "Metrics",
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.metrics"
+    }
+  }
+}

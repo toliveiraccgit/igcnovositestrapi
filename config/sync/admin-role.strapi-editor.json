@@ -1,0 +1,1030 @@
+{
+  "name": "Editor",
+  "code": "strapi-editor",
+  "description": "Editors can manage and publish contents including those of other users.",
+  "permissions": [
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::about-us.about-us",
+      "properties": {
+        "fields": [
+          "title",
+          "label",
+          "description",
+          "media",
+          "partners.title",
+          "partners.description",
+          "principles"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::about-us.about-us",
+      "properties": {
+        "fields": [
+          "title",
+          "label",
+          "description",
+          "media",
+          "partners.title",
+          "partners.description",
+          "principles"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::about-us.about-us",
+      "properties": {
+        "fields": [
+          "title",
+          "label",
+          "description",
+          "media",
+          "partners.title",
+          "partners.description",
+          "principles"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::capital-solution.capital-solution",
+      "properties": {
+        "fields": [
+          "title",
+          "description",
+          "differential",
+          "differentials.differential_1",
+          "differentials.differential_2",
+          "differentials.differential_3",
+          "differentials.differential_4",
+          "transaction",
+          "partner"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::capital-solution.capital-solution",
+      "properties": {
+        "fields": [
+          "title",
+          "description",
+          "differential",
+          "differentials.differential_1",
+          "differentials.differential_2",
+          "differentials.differential_3",
+          "differentials.differential_4",
+          "transaction",
+          "partner"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::capital-solution.capital-solution",
+      "properties": {
+        "fields": [
+          "title",
+          "description",
+          "differential",
+          "differentials.differential_1",
+          "differentials.differential_2",
+          "differentials.differential_3",
+          "differentials.differential_4",
+          "transaction",
+          "partner"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::contact.contact",
+      "properties": {
+        "fields": [
+          "title",
+          "description",
+          "button.label",
+          "button.disabled",
+          "button.link",
+          "subtitle"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::contact.contact",
+      "properties": {
+        "fields": [
+          "title",
+          "description",
+          "button.label",
+          "button.disabled",
+          "button.link",
+          "subtitle"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::contact.contact",
+      "properties": {
+        "fields": [
+          "title",
+          "description",
+          "button.label",
+          "button.disabled",
+          "button.link",
+          "subtitle"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::header.header",
+      "properties": {
+        "fields": [
+          "button.label",
+          "button.disabled",
+          "button.link"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::header.header",
+      "properties": {
+        "fields": [
+          "button.label",
+          "button.disabled",
+          "button.link"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::header.header",
+      "properties": {
+        "fields": [
+          "button.label",
+          "button.disabled",
+          "button.link"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::home.home",
+      "properties": {
+        "fields": [
+          "banner.image",
+          "banner.title",
+          "banner.metrics.label",
+          "banner.metrics.description",
+          "banner.metrics.link",
+          "clients",
+          "services",
+          "transaction.transaction",
+          "transaction.sectors",
+          "transaction.source",
+          "transaction.profile",
+          "transaction.more"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::home.home",
+      "properties": {
+        "fields": [
+          "banner.image",
+          "banner.title",
+          "banner.metrics.label",
+          "banner.metrics.description",
+          "banner.metrics.link",
+          "clients",
+          "services",
+          "transaction.transaction",
+          "transaction.sectors",
+          "transaction.source",
+          "transaction.profile",
+          "transaction.more"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::home.home",
+      "properties": {
+        "fields": [
+          "banner.image",
+          "banner.title",
+          "banner.metrics.label",
+          "banner.metrics.description",
+          "banner.metrics.link",
+          "clients",
+          "services",
+          "transaction.transaction",
+          "transaction.sectors",
+          "transaction.source",
+          "transaction.profile",
+          "transaction.more"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::message.message",
+      "properties": {
+        "fields": [
+          "name",
+          "email",
+          "phone",
+          "document",
+          "message"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::message.message",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::message.message",
+      "properties": {
+        "fields": [
+          "name",
+          "email",
+          "phone",
+          "document",
+          "message"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::message.message",
+      "properties": {
+        "fields": [
+          "name",
+          "email",
+          "phone",
+          "document",
+          "message"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::new.new",
+      "properties": {
+        "fields": [
+          "title",
+          "description",
+          "banner",
+          "flag"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::new.new",
+      "properties": {
+        "fields": [
+          "title",
+          "description",
+          "banner",
+          "flag"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::new.new",
+      "properties": {
+        "fields": [
+          "title",
+          "description",
+          "banner",
+          "flag"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::newsletter.newsletter",
+      "properties": {
+        "fields": [
+          "email",
+          "name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::newsletter.newsletter",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::newsletter.newsletter",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::newsletter.newsletter",
+      "properties": {
+        "fields": [
+          "email",
+          "name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::newsletter.newsletter",
+      "properties": {
+        "fields": [
+          "email",
+          "name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::origem.origem",
+      "properties": {
+        "fields": [
+          "origem"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::origem.origem",
+      "properties": {
+        "fields": [
+          "origem"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::origem.origem",
+      "properties": {
+        "fields": [
+          "origem"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::pagina-agro.pagina-agro",
+      "properties": {
+        "fields": [
+          "title",
+          "description",
+          "cases",
+          "search",
+          "customers",
+          "partners",
+          "news",
+          "more"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::pagina-agro.pagina-agro",
+      "properties": {
+        "fields": [
+          "title",
+          "description",
+          "cases",
+          "search",
+          "customers",
+          "partners",
+          "news",
+          "more"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::pagina-agro.pagina-agro",
+      "properties": {
+        "fields": [
+          "title",
+          "description",
+          "cases",
+          "search",
+          "customers",
+          "partners",
+          "news",
+          "more"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::pagina-new.pagina-new",
+      "properties": {
+        "fields": [
+          "title",
+          "highlights",
+          "latest"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::pagina-new.pagina-new",
+      "properties": {
+        "fields": [
+          "title",
+          "highlights",
+          "latest"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::pagina-new.pagina-new",
+      "properties": {
+        "fields": [
+          "title",
+          "highlights",
+          "latest"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::pagina-servico.pagina-servico",
+      "properties": {
+        "fields": [
+          "title",
+          "description",
+          "chart.name",
+          "chart.value",
+          "font",
+          "customer",
+          "transaction.transaction",
+          "transaction.sectors",
+          "transaction.source",
+          "transaction.profile",
+          "transaction.more",
+          "partner",
+          "dif.differential_1",
+          "dif.differential_1_description",
+          "dif.differential_2",
+          "dif.differential_2_description",
+          "dif.differential_3",
+          "dif.differential_3_description",
+          "dif.differential_4",
+          "dif.differential_4_description",
+          "dif.differential_5",
+          "dif.differential_5_description",
+          "dif.differential_6",
+          "dif.differential_6_description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::pagina-servico.pagina-servico",
+      "properties": {
+        "fields": [
+          "title",
+          "description",
+          "chart.name",
+          "chart.value",
+          "font",
+          "customer",
+          "transaction.transaction",
+          "transaction.sectors",
+          "transaction.source",
+          "transaction.profile",
+          "transaction.more",
+          "partner",
+          "dif.differential_1",
+          "dif.differential_1_description",
+          "dif.differential_2",
+          "dif.differential_2_description",
+          "dif.differential_3",
+          "dif.differential_3_description",
+          "dif.differential_4",
+          "dif.differential_4_description",
+          "dif.differential_5",
+          "dif.differential_5_description",
+          "dif.differential_6",
+          "dif.differential_6_description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::pagina-servico.pagina-servico",
+      "properties": {
+        "fields": [
+          "title",
+          "description",
+          "chart.name",
+          "chart.value",
+          "font",
+          "customer",
+          "transaction.transaction",
+          "transaction.sectors",
+          "transaction.source",
+          "transaction.profile",
+          "transaction.more",
+          "partner",
+          "dif.differential_1",
+          "dif.differential_1_description",
+          "dif.differential_2",
+          "dif.differential_2_description",
+          "dif.differential_3",
+          "dif.differential_3_description",
+          "dif.differential_4",
+          "dif.differential_4_description",
+          "dif.differential_5",
+          "dif.differential_5_description",
+          "dif.differential_6",
+          "dif.differential_6_description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::pagina-social.pagina-social",
+      "properties": {
+        "fields": [
+          "title",
+          "label",
+          "description",
+          "image",
+          "support",
+          "supports.title",
+          "supports.image",
+          "supports.description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::pagina-social.pagina-social",
+      "properties": {
+        "fields": [
+          "title",
+          "label",
+          "description",
+          "image",
+          "support",
+          "supports.title",
+          "supports.image",
+          "supports.description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::pagina-social.pagina-social",
+      "properties": {
+        "fields": [
+          "title",
+          "label",
+          "description",
+          "image",
+          "support",
+          "supports.title",
+          "supports.image",
+          "supports.description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::pagina-transacoe.pagina-transacoe",
+      "properties": {
+        "fields": [
+          "title",
+          "description",
+          "sectors",
+          "source",
+          "profile"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::pagina-transacoe.pagina-transacoe",
+      "properties": {
+        "fields": [
+          "title",
+          "description",
+          "sectors",
+          "source",
+          "profile"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::pagina-transacoe.pagina-transacoe",
+      "properties": {
+        "fields": [
+          "title",
+          "description",
+          "sectors",
+          "source",
+          "profile"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::partner.partner",
+      "properties": {
+        "fields": [
+          "name",
+          "about",
+          "photo",
+          "linkedin",
+          "email"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::partner.partner",
+      "properties": {
+        "fields": [
+          "name",
+          "about",
+          "photo",
+          "linkedin",
+          "email"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::partner.partner",
+      "properties": {
+        "fields": [
+          "name",
+          "about",
+          "photo",
+          "linkedin",
+          "email"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::perfil.perfil",
+      "properties": {
+        "fields": [
+          "name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::perfil.perfil",
+      "properties": {
+        "fields": [
+          "name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::perfil.perfil",
+      "properties": {
+        "fields": [
+          "name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::principio.principio",
+      "properties": {
+        "fields": [
+          "title",
+          "label",
+          "description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::principio.principio",
+      "properties": {
+        "fields": [
+          "title",
+          "label",
+          "description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::principio.principio",
+      "properties": {
+        "fields": [
+          "title",
+          "label",
+          "description"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::servico.servico",
+      "properties": {
+        "fields": [
+          "name",
+          "description",
+          "button.label",
+          "button.disabled",
+          "button.link",
+          "image"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::servico.servico",
+      "properties": {
+        "fields": [
+          "name",
+          "description",
+          "button.label",
+          "button.disabled",
+          "button.link",
+          "image"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::servico.servico",
+      "properties": {
+        "fields": [
+          "name",
+          "description",
+          "button.label",
+          "button.disabled",
+          "button.link",
+          "image"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::specialty.specialty",
+      "properties": {
+        "fields": [
+          "name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::specialty.specialty",
+      "properties": {
+        "fields": [
+          "name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::specialty.specialty",
+      "properties": {
+        "fields": [
+          "name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::testemunho.testemunho",
+      "properties": {
+        "fields": [
+          "name",
+          "company",
+          "testimony",
+          "date"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::testemunho.testemunho",
+      "properties": {
+        "fields": [
+          "name",
+          "company",
+          "testimony",
+          "date"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::testemunho.testemunho",
+      "properties": {
+        "fields": [
+          "name",
+          "company",
+          "testimony",
+          "date"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::transacoe.transacoe",
+      "properties": {
+        "fields": [
+          "name",
+          "description",
+          "image",
+          "setor",
+          "origem",
+          "perfi"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::transacoe.transacoe",
+      "properties": {
+        "fields": [
+          "name",
+          "description",
+          "image",
+          "setor",
+          "origem",
+          "perfi"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::transacoe.transacoe",
+      "properties": {
+        "fields": [
+          "name",
+          "description",
+          "image",
+          "setor",
+          "origem",
+          "perfi"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "plugin::navigation.audience",
+      "properties": {
+        "fields": [
+          "name",
+          "key"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "plugin::navigation.audience",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "plugin::navigation.audience",
+      "properties": {
+        "fields": [
+          "name",
+          "key"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "plugin::navigation.audience",
+      "properties": {
+        "fields": [
+          "name",
+          "key"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.copy-link",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.download",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    }
+  ]
+}

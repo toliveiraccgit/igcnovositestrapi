@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_principles_principles",
+  "info": {
+    "displayName": "principles",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "list": {
+      "displayName": "list",
+      "type": "component",
+      "repeatable": true,
+      "component": "principles.list",
+      "required": true
+    }
+  }
+}

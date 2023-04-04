@@ -1,0 +1,77 @@
+{
+  "key": "plugin_content_manager_configuration_components::social.social",
+  "value": {
+    "uid": "social.social",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "instagram",
+      "defaultSortBy": "instagram",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "instagram": {
+        "edit": {
+          "label": "instagram",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "instagram",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "linkedin": {
+        "edit": {
+          "label": "linkedin",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "linkedin",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "instagram",
+        "linkedin"
+      ],
+      "edit": [
+        [
+          {
+            "name": "instagram",
+            "size": 6
+          },
+          {
+            "name": "linkedin",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_more_mores",
+  "info": {
+    "displayName": "more",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.cards",
+      "required": true
+    },
+    "mobile": {
+      "type": "component",
+      "repeatable": true,
+      "component": "mobile.mobile",
+      "required": true
+    }
+  }
+}

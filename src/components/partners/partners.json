@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_partners_partners",
+  "info": {
+    "displayName": "partners",
+    "icon": "user-friends",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

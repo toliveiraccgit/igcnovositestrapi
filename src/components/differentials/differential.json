@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_differentials_differential",
+  "info": {
+    "displayName": "differential",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "differential_1": {
+      "type": "string",
+      "required": false
+    },
+    "differential_1_description": {
+      "type": "richtext"
+    },
+    "differential_2": {
+      "type": "string"
+    },
+    "differential_2_description": {
+      "type": "richtext"
+    },
+    "differential_3": {
+      "type": "string"
+    },
+    "differential_3_description": {
+      "type": "richtext"
+    },
+    "differential_4_description": {
+      "type": "richtext"
+    },
+    "differential_5": {
+      "type": "string"
+    },
+    "differential_5_description": {
+      "type": "richtext"
+    },
+    "differential_6": {
+      "type": "string"
+    },
+    "differential_6_description": {
+      "type": "richtext"
+    },
+    "differential_4": {
+      "type": "string"
+    }
+  }
+}

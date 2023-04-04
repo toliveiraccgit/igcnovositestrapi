@@ -1,0 +1,24 @@
+version: "3"
+services:
+  postgres:
+    container_name: postgres-igc
+    image: postgres:14.4-alpine
+    volumes:
+      - postgres:/data/postgres
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - "5432:5432"
+    env_file:
+      - ./.docker.env
+    networks:
+      - original-network
+    restart: unless-stopped
+
+networks:
+  original-network:
+    driver: bridge
+
+volumes:
+  postgres:
+    driver: local
