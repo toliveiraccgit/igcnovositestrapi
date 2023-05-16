@@ -107,6 +107,25 @@
       "type": "string",
       "default": "NOSSAS TRANSAÇÕES",
       "required": true
+    },
+    "title_contact": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "default": "FALE COM A GENTE"
+    },
+    "title_social": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
     }
   }
 }

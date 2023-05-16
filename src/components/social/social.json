@@ -11,11 +11,6 @@
     },
     "linkedin": {
       "type": "string"
-    },
-    "title": {
-      "type": "string",
-      "default": "ACOMPANHE",
-      "required": true
     }
   }
 }

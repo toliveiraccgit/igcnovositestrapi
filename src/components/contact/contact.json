@@ -21,11 +21,6 @@
     "cep": {
       "type": "string",
       "required": true
-    },
-    "title": {
-      "type": "string",
-      "required": true,
-      "default": "FALE COM A GENTE"
     }
   }
 }
