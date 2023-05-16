@@ -1,7 +1,8 @@
 {
   "collectionName": "components_differentials_difs",
   "info": {
-    "displayName": "dif"
+    "displayName": "dif",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -40,6 +41,16 @@
     },
     "differential_6_description": {
       "type": "string"
+    },
+    "highlight_1": {
+      "type": "string",
+      "default": "Melhor transação possível",
+      "required": true
+    },
+    "highlight_2": {
+      "type": "string",
+      "default": "Maior taxa de conversão do mercado.",
+      "required": true
     }
   }
 }

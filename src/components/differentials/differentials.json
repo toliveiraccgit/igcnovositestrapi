@@ -2,7 +2,8 @@
   "collectionName": "components_differentials_differentials",
   "info": {
     "displayName": "differentials",
-    "icon": "align-justify"
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -18,6 +19,32 @@
     },
     "differential_4": {
       "type": "string"
+    },
+    "highlight_1": {
+      "type": "string",
+      "required": true,
+      "default": "Melhor transação possível"
+    },
+    "highlight_2": {
+      "type": "string",
+      "required": true,
+      "default": "Maior taxa de conversão do mercado."
+    },
+    "differential_1_description": {
+      "type": "string",
+      "required": true
+    },
+    "differential_2_description": {
+      "type": "string",
+      "required": true
+    },
+    "differential_3_description": {
+      "type": "string",
+      "required": true
+    },
+    "differential_4_description": {
+      "type": "string",
+      "required": true
     }
   }
 }

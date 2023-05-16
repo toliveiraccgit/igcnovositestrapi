@@ -39,7 +39,8 @@
       "multiple": false,
       "required": false,
       "allowedTypes": [
-        "videos"
+        "videos",
+        "images"
       ],
       "pluginOptions": {
         "i18n": {

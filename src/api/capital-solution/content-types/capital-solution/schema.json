@@ -4,7 +4,8 @@
   "info": {
     "singularName": "capital-solution",
     "pluralName": "capital-solutions",
-    "displayName": "Página - Capital Solutions"
+    "displayName": "Página - Capital Solutions",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

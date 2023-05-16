@@ -2,11 +2,11 @@ export default ({ env }) => ({
   connection: {
     client: "postgres",
     connection: {
-      host: "localhost",
+      host: "131.196.196.29",
       port: 5432,
-      database: "igcp_database",
+      database: "igc_database",
       user: "postgres",
-      password: "postgres",
+      password: "Sage@2854",
       timezone: env("TIMEZONE", "America/Sao_Paulo"),
     },
   },
