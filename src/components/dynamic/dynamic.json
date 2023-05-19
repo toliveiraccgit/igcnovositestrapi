@@ -36,7 +36,7 @@
       "relation": "oneToMany",
       "target": "api::new.new"
     },
-    "bunner": {
+    "banner": {
       "type": "media",
       "multiple": false,
       "required": false,

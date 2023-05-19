@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_policies_policies",
+  "info": {
+    "displayName": "Menu",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link_1": {
+      "type": "string"
+    },
+    "link_2": {
+      "type": "string"
+    },
+    "link_3": {
+      "type": "string"
+    },
+    "link_4": {
+      "type": "string"
+    },
+    "link_5": {
+      "type": "string"
+    },
+    "link_6": {
+      "type": "string"
+    },
+    "link_7": {
+      "type": "string"
+    },
+    "link_8": {
+      "type": "string"
+    },
+    "link_9": {
+      "type": "string"
+    },
+    "link_10": {
+      "type": "string"
+    },
+    "link_11": {
+      "type": "string"
+    }
+  }
+}

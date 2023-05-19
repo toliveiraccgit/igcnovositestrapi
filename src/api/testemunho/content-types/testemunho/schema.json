@@ -49,6 +49,19 @@
         }
       },
       "type": "date"
+    },
+    "type": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "M&A",
+        "Capital Solutions"
+      ],
+      "required": true
     }
   }
 }
