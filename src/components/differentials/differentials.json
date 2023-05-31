@@ -45,6 +45,22 @@
     "differential_4_description": {
       "type": "string",
       "required": true
+    },
+    "differential_5": {
+      "type": "string",
+      "required": true
+    },
+    "differential_5_description": {
+      "type": "string",
+      "required": true
+    },
+    "differential_6": {
+      "type": "string",
+      "required": true
+    },
+    "differential_6_description": {
+      "type": "string",
+      "required": true
     }
   }
 }
