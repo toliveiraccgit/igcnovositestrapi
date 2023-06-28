@@ -62,6 +62,20 @@
         "Capital Solutions"
       ],
       "required": true
+    },
+    "priority": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "Muito alta",
+        "Alta",
+        "Normal",
+        "Baixa"
+      ]
     }
   }
 }

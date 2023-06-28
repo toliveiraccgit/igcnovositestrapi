@@ -3,10 +3,10 @@
 //   connection: {
 //     client: "postgres",
 //     connection: {
-//       host: "131.196.196.29",
+//       host: "3.136.141.152",
 //       port: 5432,
 //       database: "igc_database",
-//       user: "postgres",
+//       user: "admin",
 //       password: "Sage@2854",
 //       timezone: env("TIMEZONE", "America/Sao_Paulo"),
 //     },

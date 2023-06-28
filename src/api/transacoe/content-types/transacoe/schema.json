@@ -64,6 +64,21 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::servico.servico"
+    },
+    "priority": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "Muito alta",
+        "Alta",
+        "Normal",
+        "Baixa"
+      ],
+      "default": "Normal"
     }
   }
 }
