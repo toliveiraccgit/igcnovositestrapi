@@ -33,17 +33,6 @@
       },
       "type": "richtext"
     },
-    "chart": {
-      "displayName": "chart",
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "chart.chart"
-    },
     "font": {
       "pluginOptions": {
         "i18n": {
@@ -94,30 +83,30 @@
       "component": "differentials.dif"
     },
     "chart_img_desk": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
     "chart_img_mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     }
   }
 }

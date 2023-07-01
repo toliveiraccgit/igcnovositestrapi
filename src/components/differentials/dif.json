@@ -51,6 +51,12 @@
       "type": "string",
       "default": "Maior taxa de conversão do mercado.",
       "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
     }
   }
 }

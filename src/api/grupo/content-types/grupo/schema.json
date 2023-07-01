@@ -4,16 +4,26 @@
   "info": {
     "singularName": "grupo",
     "pluralName": "grupos",
-    "displayName": "Grupo"
+    "displayName": "Grupo",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "name": {
       "type": "string",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
