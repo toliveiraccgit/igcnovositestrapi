@@ -61,6 +61,12 @@
     "differential_6_description": {
       "type": "string",
       "required": true
+    },
+    "highlight_1_description": {
+      "type": "richtext"
+    },
+    "differential_title": {
+      "type": "string"
     }
   }
 }

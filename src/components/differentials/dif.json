@@ -57,6 +57,12 @@
     },
     "button": {
       "type": "string"
+    },
+    "highlight_1_description": {
+      "type": "richtext"
+    },
+    "differential_title": {
+      "type": "string"
     }
   }
 }
