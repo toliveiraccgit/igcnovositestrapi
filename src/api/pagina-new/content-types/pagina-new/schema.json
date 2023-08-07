@@ -58,6 +58,14 @@
         }
       },
       "type": "string"
+    },
+    "label_share": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

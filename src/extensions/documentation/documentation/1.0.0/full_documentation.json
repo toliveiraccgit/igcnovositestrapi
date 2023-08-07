@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-08-05T19:56:44.091Z"
+    "x-generation-date": "2023-08-06T16:23:41.033Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -14054,6 +14054,9 @@
           "load_more": {
             "type": "string"
           },
+          "label_share": {
+            "type": "string"
+          },
           "locale": {
             "type": "string"
           }
@@ -14086,6 +14089,9 @@
                 "type": "string"
               },
               "load_more": {
+                "type": "string"
+              },
+              "label_share": {
                 "type": "string"
               },
               "locale": {
@@ -14230,6 +14236,9 @@
             "type": "string"
           },
           "load_more": {
+            "type": "string"
+          },
+          "label_share": {
             "type": "string"
           },
           "createdAt": {
@@ -16551,6 +16560,12 @@
             ],
             "example": "string or id"
           },
+          "label_transaction": {
+            "type": "string"
+          },
+          "label_filters": {
+            "type": "string"
+          },
           "locale": {
             "type": "string"
           }
@@ -16595,6 +16610,12 @@
                   }
                 ],
                 "example": "string or id"
+              },
+              "label_transaction": {
+                "type": "string"
+              },
+              "label_filters": {
+                "type": "string"
               },
               "locale": {
                 "type": "string"
@@ -17360,6 +17381,12 @@
                 }
               }
             }
+          },
+          "label_transaction": {
+            "type": "string"
+          },
+          "label_filters": {
+            "type": "string"
           },
           "createdAt": {
             "type": "string",
